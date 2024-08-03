@@ -32,7 +32,7 @@ const UsersPage =async () => {
                             <div className={styles.user}>
                                 <Image
                                     src={ user.profileImage || '/noavatar.png'} 
-                                    alt=""
+                                    alt={user.username}
                                     width={40}
                                     height={40}
                                     className={styles.userImage}
