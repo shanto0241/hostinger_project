@@ -1,0 +1,36 @@
+.container {
+  padding:10px 20px;
+  background-color: white;
+
+}
+
+.title {
+  text-align: center;
+  color: var(--textSoft);
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: sticky;
+  top: 0px;
+
+}
+
+.link {
+  color: var(--textSoft);
+}
+
+.link:hover {
+  color: green;
+}
+
+.active {
+  color: var(--text);
+}

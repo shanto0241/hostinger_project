@@ -1,0 +1,18 @@
+.container{
+    margin: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title h1{
+    color: var(--text);
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+.title p{
+    color: var(--textSoft);
+    text-transform: capitalize;
+}
